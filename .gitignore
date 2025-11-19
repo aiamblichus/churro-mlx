@@ -1,0 +1,34 @@
+# Bazel build outputs
+bazel-*
+
+# User-specific Bazel configuration (may contain API keys)
+.bazelrc.user
+
+# Environment files (may contain secrets)
+.env
+.envrc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+old/
+seshat.txt
+.bazel_output 
+.bazel_user_root
+/debug/
+/dist
+/out
+docs/_build/
+/build
+
+mlx_churro_4bit/
